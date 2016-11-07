@@ -4,3 +4,13 @@ c:\users\aguiarr\documents\visual studio 2015\Projects\TimeSheet\TimeSheet\bin\D
 c:\users\aguiarr\documents\visual studio 2015\Projects\TimeSheet\TimeSheet\obj\Debug\TimeSheet.csprojResolveAssemblyReference.cache
 c:\users\aguiarr\documents\visual studio 2015\Projects\TimeSheet\TimeSheet\obj\Debug\TimeSheet.exe
 c:\users\aguiarr\documents\visual studio 2015\Projects\TimeSheet\TimeSheet\obj\Debug\TimeSheet.pdb
+C:\Users\AguiarR\Documents\VsProjects\TimeSheet\TimeSheet\TimeSheet\bin\Debug\TimeSheet.exe.config
+C:\Users\AguiarR\Documents\VsProjects\TimeSheet\TimeSheet\TimeSheet\obj\Debug\TimeSheet.exe
+C:\Users\AguiarR\Documents\VsProjects\TimeSheet\TimeSheet\TimeSheet\obj\Debug\TimeSheet.pdb
+C:\Users\AguiarR\Documents\VsProjects\TimeSheet\TimeSheet\TimeSheet\bin\Debug\Post1_3h30_2_novembro.txt
+C:\Users\AguiarR\Documents\VsProjects\TimeSheet\TimeSheet\TimeSheet\bin\Debug\Post2_3h30_3_novembro.txt
+C:\Users\AguiarR\Documents\VsProjects\TimeSheet\TimeSheet\TimeSheet\bin\Debug\Post3_3h31_4_novembro.txt
+C:\Users\AguiarR\Documents\VsProjects\TimeSheet\TimeSheet\TimeSheet\bin\Debug\Post4_3h43_5_novembro.txt
+C:\Users\AguiarR\Documents\VsProjects\TimeSheet\TimeSheet\TimeSheet\bin\Debug\TimeSheet.exe
+C:\Users\AguiarR\Documents\VsProjects\TimeSheet\TimeSheet\TimeSheet\bin\Debug\TimeSheet.pdb
+C:\Users\AguiarR\Documents\VsProjects\TimeSheet\TimeSheet\TimeSheet\obj\Debug\TimeSheet.csprojResolveAssemblyReference.cache

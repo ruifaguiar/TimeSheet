@@ -6,9 +6,11 @@ using System.Threading.Tasks;
 
 namespace TimeSheet
 {
-    class Pessoa
+    public class Pessoa
     {
         public string Name { get; set; }
-        public List<TimeSpan> Times { get; set; }
+        public DateTime TimePosted { get; set; }
+
+        public string Response { get; set; }
     }
 }
