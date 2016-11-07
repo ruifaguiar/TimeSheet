@@ -1,0 +1,6 @@
+c:\users\aguiarr\documents\visual studio 2015\Projects\TimeSheet\TimeSheet\bin\Debug\TimeSheet.exe.config
+c:\users\aguiarr\documents\visual studio 2015\Projects\TimeSheet\TimeSheet\bin\Debug\TimeSheet.exe
+c:\users\aguiarr\documents\visual studio 2015\Projects\TimeSheet\TimeSheet\bin\Debug\TimeSheet.pdb
+c:\users\aguiarr\documents\visual studio 2015\Projects\TimeSheet\TimeSheet\obj\Debug\TimeSheet.csprojResolveAssemblyReference.cache
+c:\users\aguiarr\documents\visual studio 2015\Projects\TimeSheet\TimeSheet\obj\Debug\TimeSheet.exe
+c:\users\aguiarr\documents\visual studio 2015\Projects\TimeSheet\TimeSheet\obj\Debug\TimeSheet.pdb
