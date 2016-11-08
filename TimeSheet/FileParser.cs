@@ -7,7 +7,7 @@ namespace TimeSheet
 {
     public class FileParser
     {
-        public IEnumerable<Pessoa> ReadFile(string filepath)
+        public IEnumerable<Pessoa> ReadFile(string filepath,DateTime postedDate)
         {
             List<Pessoa> people = new List<Pessoa>();
             using (StreamReader reader = new StreamReader(filepath))
@@ -31,7 +31,7 @@ namespace TimeSheet
                             }
                         case 3:
                             {
-                                pessoa.TimePosted = ParseDate(line);
+                                pessoa.TimeSpent = ParseDate(line)- postedDate;
                                 people.Add(pessoa);
                                 i = 0;
                                 break;

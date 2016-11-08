@@ -14,3 +14,4 @@ C:\Users\AguiarR\Documents\VsProjects\TimeSheet\TimeSheet\TimeSheet\bin\Debug\Po
 C:\Users\AguiarR\Documents\VsProjects\TimeSheet\TimeSheet\TimeSheet\bin\Debug\TimeSheet.exe
 C:\Users\AguiarR\Documents\VsProjects\TimeSheet\TimeSheet\TimeSheet\bin\Debug\TimeSheet.pdb
 C:\Users\AguiarR\Documents\VsProjects\TimeSheet\TimeSheet\TimeSheet\obj\Debug\TimeSheet.csprojResolveAssemblyReference.cache
+C:\Users\AguiarR\Documents\VsProjects\TimeSheet\TimeSheet\TimeSheet\bin\Debug\Post5_3h30_6_novembro.txt
