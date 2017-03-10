@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.IO;
 using System.Linq;
 
 namespace TimeSheet
@@ -8,19 +9,21 @@ namespace TimeSheet
     {
         static void Main(string[] args)
         {
-            var files = new[] { "Post1_3h30_2_novembro.txt", "Post2_3h30_3_novembro.txt", "Post3_3h31_4_novembro.txt", "Post4_3h43_5_novembro.txt", "Post5_3h30_6_novembro.txt" };
+            var files = new[] { "Post1_11h55_6_Março", "Post2_10h55_7_Março", "Post3_16h00_7_Março" };
             var passatempo = new IEnumerable<Pessoa>[files.Length];
             var postedDates = new DateTime[]
             {
-                new DateTime(2016, 11, 2, 15, 30, 00), new DateTime(2016, 11, 3, 15, 30, 00) ,
-                new DateTime(2016, 11, 4, 15, 31, 00), new DateTime(2016, 11, 5, 15, 43, 00),new DateTime(2016, 11, 6, 15, 30, 00)
+                new DateTime(2017, 03, 6, 10, 55, 00), new DateTime(2017, 3, 7, 10, 55, 00) ,
+                new DateTime(2017, 3, 7, 16, 00, 00)
             };
+
+            var rootPath = "./GoodAfter";
             var parser = new FileParser();
-            var responses = new[] { "oris", "longines", "Tissot", "Gucci", "Swatch" };
+            var responses = new[] { "Diana", "Audrey Hepburn", "Madonna"};
 
             for (var i = 0; i < files.Length; i++)
             {
-                passatempo[i] = parser.ReadFile(files[i], postedDates[i]).Where(a => a.Response.ToLowerInvariant().Contains(responses[i].ToLowerInvariant())).ToList();
+                passatempo[i] = parser.ReadFile(Path.Combine(rootPath,files[i]), postedDates[i]).Where(a => a.Response.ToLowerInvariant().Contains(responses[i].ToLowerInvariant())).ToList();
 
             }
 
@@ -30,9 +33,7 @@ namespace TimeSheet
             {
 
                 if (passatempo[1].Any(a => string.Equals(a.Name, pessoa.Name, StringComparison.InvariantCultureIgnoreCase)) &&
-                    passatempo[2].Any(a => string.Equals(a.Name, pessoa.Name, StringComparison.InvariantCultureIgnoreCase)) &&
-                    passatempo[3].Any(a => string.Equals(a.Name, pessoa.Name, StringComparison.InvariantCultureIgnoreCase)) &&
-                    passatempo[4].Any(a => string.Equals(a.Name, pessoa.Name, StringComparison.InvariantCultureIgnoreCase))
+                    passatempo[2].Any(a => string.Equals(a.Name, pessoa.Name, StringComparison.InvariantCultureIgnoreCase))
                     )
                 {
                     names.Add(pessoa.Name);

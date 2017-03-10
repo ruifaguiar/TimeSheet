@@ -50,21 +50,30 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+    <None Include="GoodAfter\Post1_11h55_6_Março">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="GoodAfter\Post2_10h55_7_Março">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="GoodAfter\Post3_16h00_7_Março">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
   </ItemGroup>
   <ItemGroup>
-    <Content Include="Post1_3h30_2_novembro.txt">
+    <Content Include="Marcolino\Post1_3h30_2_novembro.txt">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
-    <Content Include="Post2_3h30_3_novembro.txt">
+    <Content Include="Marcolino\Post2_3h30_3_novembro.txt">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
-    <Content Include="Post3_3h31_4_novembro.txt">
+    <Content Include="Marcolino\Post3_3h31_4_novembro.txt">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
-    <Content Include="Post4_3h43_5_novembro.txt">
+    <Content Include="Marcolino\Post4_3h43_5_novembro.txt">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
-    <Content Include="Post5_3h30_6_novembro.txt">
+    <Content Include="Marcolino\Post5_3h30_6_novembro.txt">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
   </ItemGroup>

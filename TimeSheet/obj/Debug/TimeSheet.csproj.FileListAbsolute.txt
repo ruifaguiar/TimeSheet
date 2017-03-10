@@ -15,3 +15,17 @@ C:\Users\AguiarR\Documents\VsProjects\TimeSheet\TimeSheet\TimeSheet\bin\Debug\Ti
 C:\Users\AguiarR\Documents\VsProjects\TimeSheet\TimeSheet\TimeSheet\bin\Debug\TimeSheet.pdb
 C:\Users\AguiarR\Documents\VsProjects\TimeSheet\TimeSheet\TimeSheet\obj\Debug\TimeSheet.csprojResolveAssemblyReference.cache
 C:\Users\AguiarR\Documents\VsProjects\TimeSheet\TimeSheet\TimeSheet\bin\Debug\Post5_3h30_6_novembro.txt
+C:\Pessoal\TimeSheet\TimeSheet\bin\Debug\TimeSheet.exe.config
+C:\Pessoal\TimeSheet\TimeSheet\bin\Debug\TimeSheet.exe
+C:\Pessoal\TimeSheet\TimeSheet\bin\Debug\TimeSheet.pdb
+C:\Pessoal\TimeSheet\TimeSheet\obj\Debug\TimeSheet.csprojResolveAssemblyReference.cache
+C:\Pessoal\TimeSheet\TimeSheet\obj\Debug\TimeSheet.exe
+C:\Pessoal\TimeSheet\TimeSheet\obj\Debug\TimeSheet.pdb
+C:\Pessoal\TimeSheet\TimeSheet\bin\Debug\Marcolino\Post1_3h30_2_novembro.txt
+C:\Pessoal\TimeSheet\TimeSheet\bin\Debug\Marcolino\Post2_3h30_3_novembro.txt
+C:\Pessoal\TimeSheet\TimeSheet\bin\Debug\Marcolino\Post3_3h31_4_novembro.txt
+C:\Pessoal\TimeSheet\TimeSheet\bin\Debug\Marcolino\Post4_3h43_5_novembro.txt
+C:\Pessoal\TimeSheet\TimeSheet\bin\Debug\Marcolino\Post5_3h30_6_novembro.txt
+C:\Pessoal\TimeSheet\TimeSheet\bin\Debug\GoodAfter\Post1_11h55_6_Março
+C:\Pessoal\TimeSheet\TimeSheet\bin\Debug\GoodAfter\Post2_10h55_7_Março
+C:\Pessoal\TimeSheet\TimeSheet\bin\Debug\GoodAfter\Post3_16h00_7_Março

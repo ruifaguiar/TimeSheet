@@ -9,6 +9,7 @@ namespace TimeSheet
     {
         public IEnumerable<Pessoa> ReadFile(string filepath,DateTime postedDate)
         {
+            int lineNumber = 0;
             List<Pessoa> people = new List<Pessoa>();
             using (StreamReader reader = new StreamReader(filepath))
             {
@@ -38,8 +39,7 @@ namespace TimeSheet
                             }
                     }
                     i++;
-
-                    
+                    lineNumber++;
                 }
             }
             return people;
@@ -68,7 +68,7 @@ namespace TimeSheet
             int hour = DateTime.ParseExact(dateParts[3], "h:mmtt", CultureInfo.CurrentCulture).Hour;
             int minute = DateTime.ParseExact(dateParts[3], "h:mmtt", CultureInfo.CurrentCulture).Minute;
 
-            return new DateTime(2016, month, day, hour, minute, 0);
+            return new DateTime(2017, month, day, hour, minute, 0);
         }
     }
 }
